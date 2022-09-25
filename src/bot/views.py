@@ -23,7 +23,8 @@ SOFTWARE.
 """
 
 import disnake
-from bot.ext import utils
+
+from bot import utils
 
 
 class ConfigView(disnake.ui.View):

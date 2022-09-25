@@ -24,7 +24,7 @@ SOFTWARE.
 from typing import Optional
 
 import disnake
-from bot.ext import utils, views
+from bot import utils, views
 from disnake.ext import commands
 
 

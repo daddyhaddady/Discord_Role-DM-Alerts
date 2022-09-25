@@ -39,7 +39,7 @@ class Role:
 
 def load_data() -> dict:
     """Load all data from config.json"""
-    with open("./bot/config.json") as f:
+    with open("./bot/data/config.json") as f:
         return json.load(f)
 
 
@@ -69,7 +69,7 @@ def get_guild_roles(guild: disnake.Guild, member: disnake.Member) -> list[Role]:
 
 def dump_config(data: dict) -> None:
     """Dumps the updated config back to config.json"""
-    with open("./bot/config.json", "w") as f:
+    with open("./bot/data/config.json", "w") as f:
         json.dump(data, f, indent=4)
 
 

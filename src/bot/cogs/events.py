@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 import disnake
-from bot.ext import utils
+from bot import utils
 from disnake.ext import commands
 
 
